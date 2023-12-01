@@ -1,0 +1,21 @@
+.root-container {
+  width: 70%;
+  position: relative;
+  main {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .root-container {
+    width: 90%;
+  }
+}
+@media (max-width: 412px) {
+  .root-container {
+    width: 100%;
+    main {
+      margin-top: 90px;
+    }
+  }
+}

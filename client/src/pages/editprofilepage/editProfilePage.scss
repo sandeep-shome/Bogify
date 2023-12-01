@@ -1,0 +1,41 @@
+.edit-profile-page-form {
+  padding: 0 20px;
+  div {
+    .picture-upload {
+      input[type="file"]::file-selector-button {
+        padding: 0.2em 0.4em;
+        border-radius: 0.2em;
+        background-color: rgb(74, 222, 128);
+        color: #fff;
+        transition: 1s;
+        height: 40px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .edit-profile-page-form {
+    padding: 0 10px;
+
+    .profile-picture-area {
+      flex-direction: column;
+    }
+    .cover-picture-area {
+      flex-direction: column;
+    }
+    input {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+    .btns {
+      margin: 0 auto;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}

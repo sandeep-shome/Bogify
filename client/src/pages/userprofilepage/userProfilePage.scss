@@ -1,0 +1,9 @@
+.user-profile-page-container {
+  padding: 0 20px;
+}
+
+@media (max-width: 412px) {
+  .user-profile-page-container {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  .my-blog-container {
+    div {
+      width: 95%;
+    }
+  }
+}
+@media (max-width: 412px) {
+  .my-blog-container {
+    padding: 0 10px;
+    div {
+      width: 95%;
+    }
+  }
+}
